@@ -42,7 +42,7 @@ DEBUG := 0
 DESTDIR :=
 
 # This is the prefix that will be used for almost all directories below.
-PREFIX := /usr/local
+PREFIX := /usr
 
 # Your C compiler
 CC := gcc
@@ -75,7 +75,7 @@ LIBINCLUDEDIR := $(INCLUDEDIR)/sensors
 
 # You should not need to change this. It is the base directory under which the
 # manual pages will be installed.
-MANDIR := $(PREFIX)/man
+MANDIR := $(PREFIX)/share/man
 
 MACHINE := $(shell uname -m)
 
